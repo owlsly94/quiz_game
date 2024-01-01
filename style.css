@@ -33,7 +33,7 @@ h1 {
 
 .answer-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 
@@ -98,8 +98,21 @@ h1 {
     filter: brightness(1.2);
 }
 
+#score-counter {
+    background-color: #2d2d2d;
+    color: #fff;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1000px) {
     .quiz-container {
         max-width: 80%;
+    }
+
+    .answer-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }

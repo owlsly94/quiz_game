@@ -218,6 +218,7 @@ const questions = [
 
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
+let score = 0;
 
 function shuffleQuestions() {
     shuffledQuestions = [...questions].sort(() => Math.random() - 0.5);
@@ -226,8 +227,12 @@ function shuffleQuestions() {
 function loadQuestion() {
     const questionContainer = document.getElementById("question-container");
     const answerContainer = document.getElementById("answer-container");
+    const scoreCounter = document.getElementById("score-counter");
 
     questionContainer.innerHTML = `<h2>${shuffledQuestions[currentQuestionIndex].question}</h2>`;
+    
+    // Update the score counter
+    scoreCounter.textContent = `Score: ${score}`;
 
     answerContainer.innerHTML = shuffledQuestions[currentQuestionIndex].options.map((option, index) => `
         <div class="answer-option" onclick="selectAnswer(${index})">${option}</div>
@@ -256,6 +261,7 @@ function checkAnswer() {
     document.getElementById("check-btn").disabled = true;
 
     if (isCorrect) {
+        score++; // Increment the score for correct answers
         setTimeout(() => {
             nextQuestion();
         }, 1000); // Automatically load next question after 1 second for a correct answer
@@ -281,8 +287,9 @@ function nextQuestion() {
     if (currentQuestionIndex < shuffledQuestions.length) {
         loadQuestion();
     } else {
-        alert("Quiz completed!");
+        alert(`Quiz completed! Your final score is ${score}`);
         currentQuestionIndex = 0; // Reset the quiz
+        score = 0; // Reset the score
         shuffleQuestions();
         loadQuestion();
     }
@@ -290,6 +297,7 @@ function nextQuestion() {
 
 function playAgain() {
     currentQuestionIndex = 0;
+    score = 0; // Reset the score
     shuffleQuestions();
     loadQuestion();
     document.getElementById("check-btn").disabled = false;

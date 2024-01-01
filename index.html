@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Game</title>
+</head>
+<body class="dark-theme">
+    <div class="quiz-container">
+        <h1>Quiz Game</h1>
+        <div id="question-container">
+            <!-- Questions will be inserted here dynamically -->
+        </div>
+        <div id="answer-container" class="answer-container"></div>
+        <div class="button-container">
+            <button id="check-btn" onclick="checkAnswer()">Check</button>
+            <button id="play-again-btn" onclick="playAgain()" style="display: none;">Play Again</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

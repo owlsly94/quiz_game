@@ -1,219 +1,199 @@
 const questions = [
     {
-        question: "What is the capital of France?",
-        options: ["Paris", "Berlin", "London", "Madrid"],
-        correctAnswer: "Paris"
-    },
-    {
-        question: "Which planet is known as the Red Planet?",
-        options: ["Earth", "Mars", "Jupiter", "Venus"],
-        correctAnswer: "Mars"
-    },
-    {
-        question: "What is the largest mammal?",
-        options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
-        correctAnswer: "Blue Whale"
-    },
-    {
-        question: "In which year did the Titanic sink?",
-        options: ["1912", "1920", "1931", "1945"],
-        correctAnswer: "1912"
-    },
-    {
-        question: "Who wrote 'Romeo and Juliet'?",
-        options: ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+        question: "Koja reka protiče kroz Beograd?",
+        options: ["Sava", "Tisa", "Morava", "Dunav"],
+        correctAnswer: "Dunav"
+      },
+      {
+        question: "Koja planina se nalazi na jugoistoku Srbije?",
+        options: ["Kopaonik", "Šar-planina", "Stara planina", "Fruška gora"],
+        correctAnswer: "Stara planina"
+      },
+      {
+        question: "Ko je napisao 'Seobe'?",
+        options: ["Ivo Andrić", "Miloš Crnjanski", "Radoje Domanović", "Danilo Kiš"],
+        correctAnswer: "Miloš Crnjanski"
+      },
+      {
+        question: "Koja životinja se nalazi na srpskom grbu?",
+        options: ["Orao", "Ris", "Vuk", "Medved"],
+        correctAnswer: "Orao"
+      },
+      {
+        question: "Ko je prvi kralj Srbije?",
+        options: ["Kralj Petar I", "Kralj Aleksandar I", "Kralj Milan Obrenović", "Kralj Stefan Dušan"],
+        correctAnswer: "Kralj Milan Obrenović"
+      },
+      {
+        question: "Koja manifestacija se održava u Guči?",
+        options: ["Sabor trubača", "Exit festival", "Beer fest", "Gitarijada"],
+        correctAnswer: "Sabor trubača"
+      },
+      {
+        question: "Ko je najpoznatiji srpski pronalazač?",
+        options: ["Nikola Tesla", "Mihajlo Pupin", "Milutin Milanković", "Vuk Karadžić"],
+        correctAnswer: "Nikola Tesla"
+      },
+      {
+        question: "Koja reka čini granicu između Srbije i Hrvatske?",
+        options: ["Sava", "Una", "Drina", "Kupa"],
+        correctAnswer: "Drina"
+      },
+      {
+        question: "Koja srpska svetinja se nalazi na Kosovu?",
+        options: ["Manastir Studenica", "Manastir Žiča", "Manastir Visoki Dečani", "Manastir Mileševa"],
+        correctAnswer: "Manastir Visoki Dečani"
+      },
+      {
+        question: "Ko je napisao pesmu 'Gorski vijenac'?",
+        options: ["Petar II Petrović Njegoš", "Branko Radičević", "Đorđe Krstić", "Desanka Maksimović"],
+        correctAnswer: "Petar II Petrović Njegoš"
+      },
+      {
+        question: "Koja opština je najmanja u Srbiji?",
+        options: ["Novi Beograd", "Stari grad", "Vračar", "Savski venac"],
+        correctAnswer: "Stari grad"
+      },
+      {
+        question: "Koji je najviši vrh planine Kopaonik?",
+        options: ["Pančićev vrh", "Suvi vrh", "Gobelja", "Jatuber"],
+        correctAnswer: "Pančićev vrh"
+      },
+      {
+        question: "Ko je kompozitor 'Ko to tamo peva' filma?",
+        options: ["Zoran Simjanović", "Vladimir Graić", "Goran Bregović", "Aleksandar Hemon"],
+        correctAnswer: "Zoran Simjanović"
+      },
+      {
+        question: "Koja srpska reprezentacija je osvojila zlatnu medalju na Olimpijskim igrama u košarci?",
+        options: ["1992. godine", "2000. godine", "1980. godine", "1976. godine"],
+        correctAnswer: "2000. godine"
+      },
+      {
+        question: "Ko je bio vođa Prvog srpskog ustanka?",
+        options: ["Karađorđe Petrović", "Miloš Obrenović", "Koča Anđelković", "Stevan Sinđelić"],
+        correctAnswer: "Karađorđe Petrović"
+      },
+      {
+        question: "Koja je najstarija univerzitetska biblioteka u Srbiji?",
+        options: ["Biblioteka Matice srpske", "Nacionalna biblioteka Srbije", "Univerzitetska biblioteka u Beogradu", "Biblioteka grada Beograda"],
+        correctAnswer: "Biblioteka Matice srpske"
+      },
+      {
+        question: "Ko je napisao roman 'Na Drini ćuprija'?",
+        options: ["Ivo Andrić", "Miloš Crnjanski", "Danilo Kiš", "Meša Selimović"],
+        correctAnswer: "Ivo Andrić"
+      },
+      {
+        question: "Koja reka teče kroz Novi Sad?",
+        options: ["Tisa", "Dunav", "Sava", "Morava"],
+        correctAnswer: "Dunav"
+      },
+      {
+        question: "Ko je prvi srpski nobelovac za književnost?",
+        options: ["Ivo Andrić", "Miloš Crnjanski", "Danilo Kiš", "Meša Selimović"],
+        correctAnswer: "Ivo Andrić"
+      },
+      {
+        question: "Koja reka protiče kroz Niš?",
+        options: ["Morava", "Neretva", "Ibar", "Vardar"],
+        correctAnswer: "Morava"
+      },
+      {
+        question: "Ko je napisao roman 'Crveno i crno'?",
+        options: ["Gijom Apoliner", "Gistav Flober", "Stendal", "Honoré de Balzac"],
+        correctAnswer: "Stendal"
+      },
+      {
+        question: "Koja planeta je poznata kao 'Jutarnja zvezda'?",
+        options: ["Mars", "Venera", "Saturn", "Jupiter"],
+        correctAnswer: "Venera"
+      },
+      {
+        question: "Ko je bio prvi čovek na Mesecu?",
+        options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+        correctAnswer: "Neil Armstrong"
+      },
+      {
+        question: "Koja je najveća planina na svetu?",
+        options: ["Mont Everest", "Andi", "Himalaji", "Aconcagua"],
+        correctAnswer: "Mont Everest"
+      },
+      {
+        question: "Ko je osnivač kompanije Microsoft?",
+        options: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Elon Musk"],
+        correctAnswer: "Bill Gates"
+      },
+      {
+        question: "Koja je najduža reka u Africi?",
+        options: ["Nil", "Kongo", "Niger", "Limpopo"],
+        correctAnswer: "Nil"
+      },
+      {
+        question: "Ko je napisao tragediju 'Romeo i Julija'?",
+        options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Fyodor Dostoevsky"],
         correctAnswer: "William Shakespeare"
-    },
-    {
-        question: "What is the currency of Japan?",
-        options: ["Yuan", "Yen", "Won", "Ringgit"],
-        correctAnswer: "Yen"
-    },
-    {
-        question: "Which element has the chemical symbol 'O'?",
-        options: ["Osmium", "Oxygen", "Oganesson", "Olivine"],
-        correctAnswer: "Oxygen"
-    },
-    {
-        question: "Who painted the Mona Lisa?",
-        options: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"],
+      },
+      {
+        question: "Ko je pronalazač telefona?",
+        options: ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
+        correctAnswer: "Alexander Graham Bell"
+      },
+      {
+        question: "Koja zemlja je domaćin FIFA Svetskog kupa 2022?",
+        options: ["Brazil", "Nemačka", "Rusija", "Katar"],
+        correctAnswer: "Katar"
+      },
+      {
+        question: "Ko je napisao 'Ana Karenjina'?",
+        options: ["Fyodor Dostoevsky", "Leo Tolstoy", "Anton Chekhov", "Ivan Turgenev"],
+        correctAnswer: "Leo Tolstoy"
+      },
+      {
+        question: "Koja je najveća pustinja na svetu?",
+        options: ["Sahara", "Gobi", "Atakama", "Antarktik"],
+        correctAnswer: "Sahara"
+      },
+      {
+        question: "Ko je autor slike 'Mona Liza'?",
+        options: ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Michelangelo"],
         correctAnswer: "Leonardo da Vinci"
-    },
-    {
-        question: "Which country is known as the Land of the Rising Sun?",
-        options: ["China", "South Korea", "Japan", "Vietnam"],
-        correctAnswer: "Japan"
-    },
-    {
-        question: "In what year did World War II end?",
-        options: ["1945", "1947", "1950", "1939"],
-        correctAnswer: "1945"
-    },
-    {
-        question: "What is the capital of Brazil?",
-        options: ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
-        correctAnswer: "Brasília"
-    },
-    {
-        question: "Which gas do plants absorb from the atmosphere?",
-        options: ["Oxygen", "Carbon Monoxide", "Nitrogen", "Carbon Dioxide"],
-        correctAnswer: "Carbon Dioxide"
-    },
-    {
-        question: "Who wrote 'The Great Gatsby'?",
-        options: ["F. Scott Fitzgerald", "Ernest Hemingway", "J.D. Salinger", "Jane Austen"],
-        correctAnswer: "F. Scott Fitzgerald"
-    },
-    {
-        question: "What is the largest ocean on Earth?",
-        options: ["Indian Ocean", "Arctic Ocean", "Atlantic Ocean", "Pacific Ocean"],
-        correctAnswer: "Pacific Ocean"
-    },
-    {
-        question: "Which planet is known as the 'Morning Star' or 'Evening Star'?",
-        options: ["Mercury", "Venus", "Mars", "Jupiter"],
-        correctAnswer: "Venus"
-    },
-    {
-        question: "Who was the first President of the United States?",
-        options: ["Thomas Jefferson", "John Adams", "George Washington", "James Madison"],
+      },
+      {
+        question: "Ko je osnivač kompanije Apple?",
+        options: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Elon Musk"],
+        correctAnswer: "Steve Jobs"
+      },
+      {
+        question: "Koja je najveća država na svetu po površini?",
+        options: ["Rusija", "Kina", "SAD", "Brazil"],
+        correctAnswer: "Rusija"
+      },
+      {
+        question: "Ko je prvi američki predsednik?",
+        options: ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
         correctAnswer: "George Washington"
-    },
-    {
-        question: "What is the largest desert in the world?",
-        options: ["Gobi Desert", "Sahara Desert", "Antarctica", "Arabian Desert"],
-        correctAnswer: "Antarctica"
-    },
-    {
-        question: "Which element is essential for human bones?",
-        options: ["Calcium", "Iron", "Sodium", "Potassium"],
-        correctAnswer: "Calcium"
-    },
-    {
-        question: "Who wrote 'To Kill a Mockingbird'?",
-        options: ["J.K. Rowling", "Harper Lee", "George Orwell", "J.D. Salinger"],
-        correctAnswer: "Harper Lee"
-    },
-    {
-        question: "What is the capital of South Africa?",
-        options: ["Johannesburg", "Cape Town", "Durban", "Pretoria"],
-        correctAnswer: "Pretoria"
-    },
-    {
-        question: "Which is the smallest prime number?",
-        options: ["1", "2", "3", "5"],
-        correctAnswer: "2"
-    },
-    {
-        question: "What is the main ingredient in guacamole?",
-        options: ["Tomato", "Onion", "Avocado", "Lime"],
-        correctAnswer: "Avocado"
-    },
-    {
-        question: "Who wrote '1984'?",
-        options: ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"],
-        correctAnswer: "George Orwell"
-    },
-    {
-        question: "Which river is the longest in the world?",
-        options: ["Nile", "Amazon", "Yangtze", "Mississippi"],
-        correctAnswer: "Nile"
-    },
-    {
-        question: "What is the capital of Australia?",
-        options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-        correctAnswer: "Canberra"
-    },
-    {
-        question: "Who developed the theory of relativity?",
-        options: ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"],
-        correctAnswer: "Albert Einstein"
-    },
-    {
-        question: "What is the largest bird in the world?",
-        options: ["Ostrich", "Emu", "Albatross", "Condor"],
-        correctAnswer: "Ostrich"
-    },
-    {
-        question: "In which year did the Berlin Wall fall?",
-        options: ["1985", "1989", "1991", "1995"],
-        correctAnswer: "1989"
-    },
-    {
-        question: "Who wrote 'Pride and Prejudice'?",
-        options: ["Charles Dickens", "Jane Austen", "Emily Brontë", "Leo Tolstoy"],
-        correctAnswer: "Jane Austen"
-    },
-    {
-        question: "What is the currency of South Korea?",
-        options: ["Yen", "Won", "Baht", "Won"],
-        correctAnswer: "Won"
-    },
-    {
-        question: "Which is the largest planet in our solar system?",
-        options: ["Earth", "Jupiter", "Saturn", "Neptune"],
+      },
+      {
+        question: "Koja je najmanja kost u ljudskom telu?",
+        options: ["Srednje uvo", "Štitasta žlezda", "Kuka", "Zglob"],
+        correctAnswer: "Srednje uvo"
+      },
+      {
+        question: "Koja je najveća planeta u Sunčevom sistemu?",
+        options: ["Zemlja", "Saturn", "Jupiter", "Mars"],
         correctAnswer: "Jupiter"
-    },
-    {
-        question: "Who painted 'Starry Night'?",
-        options: ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Leonardo da Vinci"],
-        correctAnswer: "Vincent van Gogh"
-    },
-    {
-        question: "What is the national flower of Japan?",
-        options: ["Cherry Blossom", "Rose", "Lotus", "Tulip"],
-        correctAnswer: "Cherry Blossom"
-    },
-    {
-        question: "In which year did the Apollo 11 mission land on the moon?",
-        options: ["1965", "1969", "1972", "1975"],
-        correctAnswer: "1969"
-    },
-    {
-        question: "Who is known as the 'Father of Computer Science'?",
-        options: ["Alan Turing", "Charles Babbage", "Ada Lovelace", "Tim Berners-Lee"],
-        correctAnswer: "Alan Turing"
-    },
-    {
-        question: "Which continent is the driest and hottest?",
-        options: ["Africa", "Asia", "Australia", "South America"],
-        correctAnswer: "Australia"
-    },
-    {
-        question: "What is the speed of light?",
-        options: ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
-        correctAnswer: "300,000 km/s"
-    },
-    {
-        question: "Who wrote 'The Catcher in the Rye'?",
-        options: ["J.D. Salinger", "F. Scott Fitzgerald", "Ernest Hemingway", "George Orwell"],
-        correctAnswer: "J.D. Salinger"
-    },
-    {
-        question: "Which is the largest island in the world?",
-        options: ["Greenland", "Australia", "Borneo", "Iceland"],
-        correctAnswer: "Greenland"
-    },
-    {
-        question: "What is the powerhouse of the cell?",
-        options: ["Mitochondria", "Nucleus", "Endoplasmic Reticulum", "Golgi Apparatus"],
-        correctAnswer: "Mitochondria"
-    },
-    {
-        question: "Who discovered penicillin?",
-        options: ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Joseph Lister"],
+      },
+      {
+        question: "Ko je napisao 'Ilijadu'?",
+        options: ["Platon", "Aristotel", "Homer", "Sofokle"],
+        correctAnswer: "Homer"
+      },
+      {
+        question: "Ko je pronalazač penicilina?",
+        options: ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Jonas Salk"],
         correctAnswer: "Alexander Fleming"
-    },
-    {
-        question: "Which is the longest river in Asia?",
-        options: ["Ganges", "Mekong", "Yellow River", "Yangtze"],
-        correctAnswer: "Yangtze"
-    },
-    {
-        question: "What is the chemical symbol for gold?",
-        options: ["Go", "Au", "Ag", "Fe"],
-        correctAnswer: "Au"
-    }
+      }
 ];
 
 let shuffledQuestions = [];
@@ -232,7 +212,7 @@ function loadQuestion() {
     questionContainer.innerHTML = `<h2>${shuffledQuestions[currentQuestionIndex].question}</h2>`;
     
     // Update the score counter
-    scoreCounter.textContent = `Score: ${score}`;
+    scoreCounter.textContent = `Rezultat: ${score}`;
 
     answerContainer.innerHTML = shuffledQuestions[currentQuestionIndex].options.map((option, index) => `
         <div class="answer-option" onclick="selectAnswer(${index})">${option}</div>
@@ -287,7 +267,7 @@ function nextQuestion() {
     if (currentQuestionIndex < shuffledQuestions.length) {
         loadQuestion();
     } else {
-        alert(`Quiz completed! Your final score is ${score}`);
+        alert(`Pobeda! Rezultat je ${score}`);
         currentQuestionIndex = 0; // Reset the quiz
         score = 0; // Reset the score
         shuffleQuestions();

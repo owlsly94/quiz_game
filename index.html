@@ -7,18 +7,29 @@
     <title>Kviz</title>
 </head>
 <body class="dark-theme">
-    <div class="quiz-container">
+    <div id="start-container">
         <h1>Kviz</h1>
-        <h2 id="score-counter" style="background-color: #2d2d2d; color: #fff;"></h2>
+        <p>Kviz sadrži 100 pitanja.</p>
+        <button id="new-game-btn" onclick="startNewGame()">Kreni</button>
+    </div>
+    <div class="quiz-container" style="display: none;">
+        <h1>Kviz</h1>
+        <h2 id="score-counter"></h2>
         <div id="question-container">
         </div>
         <div id="answer-container" class="answer-container"></div>
+        <div id="message-container"></div>
         <div class="button-container">
             <button id="check-btn" onclick="checkAnswer()">Proveri</button>
             <button id="play-again-btn" onclick="playAgain()">Igraj ponovo</button>
         </div>
     </div>
-    
+    <div id="victory-container" class="victory-container" style="display: none;">
+        <h1 id="pobeda-naslov">Pobeda!</h1>
+        <p id="rezultat">Rezultat je <span id="final-score"></span></p>
+        <button id="play-again-victory-btn" onclick="playAgainVictory()">Igraj ponovo</button>
+        <button id="save-score-btn" onclick="saveScore()">Sačuvaj rezultat</button>
+    </div>    
     <script src="script.js"></script>
 </body>
 </html>

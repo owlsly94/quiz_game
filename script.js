@@ -1,204 +1,46 @@
-const questions = [
-    {
-        question: "Koja reka protiče kroz Beograd?",
-        options: ["Sava", "Tisa", "Morava", "Dunav"],
-        correctAnswer: "Dunav"
-      },
-      {
-        question: "Koja planina se nalazi na jugoistoku Srbije?",
-        options: ["Kopaonik", "Šar-planina", "Stara planina", "Fruška gora"],
-        correctAnswer: "Stara planina"
-      },
-      {
-        question: "Ko je napisao 'Seobe'?",
-        options: ["Ivo Andrić", "Miloš Crnjanski", "Radoje Domanović", "Danilo Kiš"],
-        correctAnswer: "Miloš Crnjanski"
-      },
-      {
-        question: "Koja životinja se nalazi na srpskom grbu?",
-        options: ["Orao", "Ris", "Vuk", "Medved"],
-        correctAnswer: "Orao"
-      },
-      {
-        question: "Ko je prvi kralj Srbije?",
-        options: ["Kralj Petar I", "Kralj Aleksandar I", "Kralj Milan Obrenović", "Kralj Stefan Dušan"],
-        correctAnswer: "Kralj Milan Obrenović"
-      },
-      {
-        question: "Koja manifestacija se održava u Guči?",
-        options: ["Sabor trubača", "Exit festival", "Beer fest", "Gitarijada"],
-        correctAnswer: "Sabor trubača"
-      },
-      {
-        question: "Ko je najpoznatiji srpski pronalazač?",
-        options: ["Nikola Tesla", "Mihajlo Pupin", "Milutin Milanković", "Vuk Karadžić"],
-        correctAnswer: "Nikola Tesla"
-      },
-      {
-        question: "Koja reka čini granicu između Srbije i Hrvatske?",
-        options: ["Sava", "Una", "Drina", "Kupa"],
-        correctAnswer: "Drina"
-      },
-      {
-        question: "Koja srpska svetinja se nalazi na Kosovu?",
-        options: ["Manastir Studenica", "Manastir Žiča", "Manastir Visoki Dečani", "Manastir Mileševa"],
-        correctAnswer: "Manastir Visoki Dečani"
-      },
-      {
-        question: "Ko je napisao pesmu 'Gorski vijenac'?",
-        options: ["Petar II Petrović Njegoš", "Branko Radičević", "Đorđe Krstić", "Desanka Maksimović"],
-        correctAnswer: "Petar II Petrović Njegoš"
-      },
-      {
-        question: "Koja opština je najmanja u Srbiji?",
-        options: ["Novi Beograd", "Stari grad", "Vračar", "Savski venac"],
-        correctAnswer: "Stari grad"
-      },
-      {
-        question: "Koji je najviši vrh planine Kopaonik?",
-        options: ["Pančićev vrh", "Suvi vrh", "Gobelja", "Jatuber"],
-        correctAnswer: "Pančićev vrh"
-      },
-      {
-        question: "Ko je kompozitor 'Ko to tamo peva' filma?",
-        options: ["Zoran Simjanović", "Vladimir Graić", "Goran Bregović", "Aleksandar Hemon"],
-        correctAnswer: "Zoran Simjanović"
-      },
-      {
-        question: "Koja srpska reprezentacija je osvojila zlatnu medalju na Olimpijskim igrama u košarci?",
-        options: ["1992. godine", "2000. godine", "1980. godine", "1976. godine"],
-        correctAnswer: "2000. godine"
-      },
-      {
-        question: "Ko je bio vođa Prvog srpskog ustanka?",
-        options: ["Karađorđe Petrović", "Miloš Obrenović", "Koča Anđelković", "Stevan Sinđelić"],
-        correctAnswer: "Karađorđe Petrović"
-      },
-      {
-        question: "Koja je najstarija univerzitetska biblioteka u Srbiji?",
-        options: ["Biblioteka Matice srpske", "Nacionalna biblioteka Srbije", "Univerzitetska biblioteka u Beogradu", "Biblioteka grada Beograda"],
-        correctAnswer: "Biblioteka Matice srpske"
-      },
-      {
-        question: "Ko je napisao roman 'Na Drini ćuprija'?",
-        options: ["Ivo Andrić", "Miloš Crnjanski", "Danilo Kiš", "Meša Selimović"],
-        correctAnswer: "Ivo Andrić"
-      },
-      {
-        question: "Koja reka teče kroz Novi Sad?",
-        options: ["Tisa", "Dunav", "Sava", "Morava"],
-        correctAnswer: "Dunav"
-      },
-      {
-        question: "Ko je prvi srpski nobelovac za književnost?",
-        options: ["Ivo Andrić", "Miloš Crnjanski", "Danilo Kiš", "Meša Selimović"],
-        correctAnswer: "Ivo Andrić"
-      },
-      {
-        question: "Koja reka protiče kroz Niš?",
-        options: ["Morava", "Neretva", "Ibar", "Vardar"],
-        correctAnswer: "Morava"
-      },
-      {
-        question: "Ko je napisao roman 'Crveno i crno'?",
-        options: ["Gijom Apoliner", "Gistav Flober", "Stendal", "Honoré de Balzac"],
-        correctAnswer: "Stendal"
-      },
-      {
-        question: "Koja planeta je poznata kao 'Jutarnja zvezda'?",
-        options: ["Mars", "Venera", "Saturn", "Jupiter"],
-        correctAnswer: "Venera"
-      },
-      {
-        question: "Ko je bio prvi čovek na Mesecu?",
-        options: ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
-        correctAnswer: "Neil Armstrong"
-      },
-      {
-        question: "Koja je najveća planina na svetu?",
-        options: ["Mont Everest", "Andi", "Himalaji", "Aconcagua"],
-        correctAnswer: "Mont Everest"
-      },
-      {
-        question: "Ko je osnivač kompanije Microsoft?",
-        options: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Elon Musk"],
-        correctAnswer: "Bill Gates"
-      },
-      {
-        question: "Koja je najduža reka u Africi?",
-        options: ["Nil", "Kongo", "Niger", "Limpopo"],
-        correctAnswer: "Nil"
-      },
-      {
-        question: "Ko je napisao tragediju 'Romeo i Julija'?",
-        options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Fyodor Dostoevsky"],
-        correctAnswer: "William Shakespeare"
-      },
-      {
-        question: "Ko je pronalazač telefona?",
-        options: ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
-        correctAnswer: "Alexander Graham Bell"
-      },
-      {
-        question: "Koja zemlja je domaćin FIFA Svetskog kupa 2022?",
-        options: ["Brazil", "Nemačka", "Rusija", "Katar"],
-        correctAnswer: "Katar"
-      },
-      {
-        question: "Ko je napisao 'Ana Karenjina'?",
-        options: ["Fyodor Dostoevsky", "Leo Tolstoy", "Anton Chekhov", "Ivan Turgenev"],
-        correctAnswer: "Leo Tolstoy"
-      },
-      {
-        question: "Koja je najveća pustinja na svetu?",
-        options: ["Sahara", "Gobi", "Atakama", "Antarktik"],
-        correctAnswer: "Sahara"
-      },
-      {
-        question: "Ko je autor slike 'Mona Liza'?",
-        options: ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Michelangelo"],
-        correctAnswer: "Leonardo da Vinci"
-      },
-      {
-        question: "Ko je osnivač kompanije Apple?",
-        options: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Elon Musk"],
-        correctAnswer: "Steve Jobs"
-      },
-      {
-        question: "Koja je najveća država na svetu po površini?",
-        options: ["Rusija", "Kina", "SAD", "Brazil"],
-        correctAnswer: "Rusija"
-      },
-      {
-        question: "Ko je prvi američki predsednik?",
-        options: ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
-        correctAnswer: "George Washington"
-      },
-      {
-        question: "Koja je najmanja kost u ljudskom telu?",
-        options: ["Srednje uvo", "Štitasta žlezda", "Kuka", "Zglob"],
-        correctAnswer: "Srednje uvo"
-      },
-      {
-        question: "Koja je najveća planeta u Sunčevom sistemu?",
-        options: ["Zemlja", "Saturn", "Jupiter", "Mars"],
-        correctAnswer: "Jupiter"
-      },
-      {
-        question: "Ko je napisao 'Ilijadu'?",
-        options: ["Platon", "Aristotel", "Homer", "Sofokle"],
-        correctAnswer: "Homer"
-      },
-      {
-        question: "Ko je pronalazač penicilina?",
-        options: ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Jonas Salk"],
-        correctAnswer: "Alexander Fleming"
-      }
-];
-
+const questionsUrl = 'questions.json';
+let newGameButton = document.getElementById("new-game-btn");
+let playAgainButton = document.getElementById("play-again-btn");
+let playAgainVictoryButton = document.getElementById("play-again-victory-btn");
+let saveScoreButton = document.getElementById("save-score-btn");
+let victoryContainer = document.getElementById("victory-container");
+let finalScore = document.getElementById("final-score");
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
+
+function startNewGame() {
+    newGameButton.style.display = 'none';
+    playAgainButton.style.display = 'none';
+    playAgainVictoryButton.style.display = 'none';
+    saveScoreButton.style.display = 'none';
+    victoryContainer.style.display = 'none';
+    document.querySelector('.quiz-container').style.display = 'block';
+    document.getElementById("start-container").style.display = 'none';
+    startQuiz();
+}
+
+async function fetchQuestions() {
+    try {
+        const response = await fetch(questionsUrl);
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching questions:', error);
+        return [];
+    }
+}
+
+async function startQuiz() {
+    questions = await fetchQuestions();
+    if (questions.length === 0) {
+        alert('Unable to fetch questions. Please check the JSON file.');
+        return;
+    }
+
+    shuffleQuestions();
+    loadQuestion();
+}
 
 function shuffleQuestions() {
     shuffledQuestions = [...questions].sort(() => Math.random() - 0.5);
@@ -210,8 +52,7 @@ function loadQuestion() {
     const scoreCounter = document.getElementById("score-counter");
 
     questionContainer.innerHTML = `<h2>${shuffledQuestions[currentQuestionIndex].question}</h2>`;
-    
-    // Update the score counter
+
     scoreCounter.textContent = `Rezultat: ${score}`;
 
     answerContainer.innerHTML = shuffledQuestions[currentQuestionIndex].options.map((option, index) => `
@@ -227,8 +68,9 @@ function selectAnswer(index) {
 
 function checkAnswer() {
     const selectedOption = document.querySelector('.selected-answer');
+    const messageContainer = document.getElementById("message-container");
     if (!selectedOption) {
-        alert("Please select an answer!");
+        showMessage("Molimo Vas, izaberite odgovor!");
         return;
     }
 
@@ -236,54 +78,78 @@ function checkAnswer() {
     selectedOption.classList.add(isCorrect ? 'correct-answer' : 'wrong-answer');
 
     const answerOptions = document.querySelectorAll('.answer-option');
-    answerOptions.forEach(option => option.style.pointerEvents = 'none'); // Disable further clicks on answer options
+    answerOptions.forEach(option => option.style.pointerEvents = 'none');
 
     document.getElementById("check-btn").disabled = true;
 
     if (isCorrect) {
-        score++; // Increment the score for correct answers
+        score++;
         setTimeout(() => {
             nextQuestion();
-        }, 1000); // Automatically load next question after 1 second for a correct answer
+        }, 1000);
     } else {
         const correctIndex = shuffledQuestions[currentQuestionIndex].options.findIndex(option => option === shuffledQuestions[currentQuestionIndex].correctAnswer);
         const correctOption = document.querySelectorAll('.answer-option')[correctIndex];
         correctOption.classList.add('correct-answer');
-        document.getElementById("play-again-btn").style.display = 'block';
+        playAgainButton.style.display = 'block';
+        playAgainVictoryButton.style.display = 'block';
     }
+}
+
+function showMessage(message) {
+    const messageContainer = document.getElementById("message-container");
+    messageContainer.textContent = message;
+
+    messageContainer.style.display = 'block';
+    setTimeout(() => {
+        messageContainer.style.display = 'none';
+    }, 2000);
 }
 
 function nextQuestion() {
     const answerOptions = document.querySelectorAll('.answer-option');
     answerOptions.forEach(option => {
         option.classList.remove('selected-answer', 'correct-answer', 'wrong-answer');
-        option.style.pointerEvents = 'auto'; // Re-enable clicks on answer options
+        option.style.pointerEvents = 'auto';
     });
 
     document.getElementById("check-btn").disabled = false;
-    document.getElementById("play-again-btn").style.display = 'none';
+    playAgainButton.style.display = 'none';
+    playAgainVictoryButton.style.display = 'none';
+    saveScoreButton.style.display = 'none';
 
     currentQuestionIndex++;
     if (currentQuestionIndex < shuffledQuestions.length) {
         loadQuestion();
     } else {
-        alert(`Pobeda! Rezultat je ${score}`);
-        currentQuestionIndex = 0; // Reset the quiz
-        score = 0; // Reset the score
-        shuffleQuestions();
-        loadQuestion();
+        showVictory();
     }
+}
+
+function showVictory() {
+    finalScore.textContent = score;
+    document.querySelector('.quiz-container').style.display = 'none';
+    victoryContainer.style.display = 'block';
+    playAgainVictoryButton.style.display = 'block';
 }
 
 function playAgain() {
     currentQuestionIndex = 0;
-    score = 0; // Reset the score
+    score = 0;
     shuffleQuestions();
     loadQuestion();
     document.getElementById("check-btn").disabled = false;
-    document.getElementById("play-again-btn").style.display = 'none';
+    playAgainButton.style.display = 'none';
+    playAgainVictoryButton.style.display = 'none';
+    saveScoreButton.style.display = 'none';
+    victoryContainer.style.display = 'none';
 }
 
-// Initial load
-shuffleQuestions();
-loadQuestion();
+function playAgainVictory() {
+    location.reload();
+}
+
+newGameButton.style.display = 'block';
+playAgainButton.style.display = 'none';
+playAgainVictoryButton.style.display = 'none';
+victoryContainer.style.display = 'none';

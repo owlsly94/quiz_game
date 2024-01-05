@@ -1,0 +1,508 @@
+[
+    {
+        "question": "Koja reka protiče kroz Beograd?",
+        "options": ["Sava", "Tisa", "Morava", "Dunav"],
+        "correctAnswer": "Dunav"
+    },
+    
+    {
+        "question": "Koja planeta je treća po udaljenosti od Sunca?",
+        "options": ["Merkur", "Venera", "Zemlja", "Mars"],
+        "correctAnswer": "Zemlja"
+      },
+      {
+        "question": "Koji je glavni sastojak vazduha?",
+        "options": ["Azot", "Kiseonik", "Ugljen-dioksid", "Argon"],
+        "correctAnswer": "Azot"
+      },
+      {
+        "question": "Koji je najviši vrh u Evropi?",
+        "options": ["Mont Blanc", "Elbrus", "Matterhorn", "Dolomiti"],
+        "correctAnswer": "Elbrus"
+      },
+      {
+        "question": "Ko je autor knjige 'Rat i mir'?",
+        "options": ["Fjodor Dostojevski", "Lev Tolstoj", "Gustav Flober", "Jane Austen"],
+        "correctAnswer": "Lev Tolstoj"
+      },
+      {
+        "question": "Koja je najduža reka u svetu?",
+        "options": ["Nil", "Amazon", "Jangce", "Mississippi"],
+        "correctAnswer": "Nil"
+      },
+      {
+        "question": "Koji je hemijski simbol za srebro?",
+        "options": ["S", "Ag", "Sr", "Se"],
+        "correctAnswer": "Ag"
+      },
+      {
+        "question": "Gde se nalazi Veliki kineski zid?",
+        "options": ["Kina", "Indija", "Japan", "Mongolija"],
+        "correctAnswer": "Kina"
+      },
+      {
+        "question": "Kako se zove proces pretvaranja vode u gas?",
+        "options": ["Suzenje", "Zamrzavanje", "Isparavanje", "Talasanje"],
+        "correctAnswer": "Isparavanje"
+      },
+      {
+        "question": "Koja je najveća država na svetu po površini?",
+        "options": ["Rusija", "Kanada", "Kina", "SAD"],
+        "correctAnswer": "Rusija"
+      },
+      {
+        "question": "Koji je najveći kontinent na Zemlji?",
+        "options": ["Evropa", "Afrika", "Azija", "Severna Amerika"],
+        "correctAnswer": "Azija"
+      },
+      {
+        "question": "Ko je napisao tragediju 'Hamlet'?",
+        "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Leo Tolstoy"],
+        "correctAnswer": "William Shakespeare"
+      },
+      {
+        "question": "Kako se zove najveći okean na Zemlji?",
+        "options": ["Atlantski okean", "Indijski okean", "Severni ledeni okean", "Tihookeanski okean"],
+        "correctAnswer": "Tihookeanski okean"
+      },
+      {
+        "question": "Koja je najmanja kost u ljudskom telu?",
+        "options": ["Stapna kost", "Kuka", "Kožna kost", "Čekićasta kost"],
+        "correctAnswer": "Stapna kost"
+      },
+      {
+        "question": "Koja je glavna funkcija srca u ljudskom telu?",
+        "options": ["Pumpanje krvi", "Varenje hrane", "Disanje", "Filtriranje krvi"],
+        "correctAnswer": "Pumpanje krvi"
+      },
+      {
+        "question": "Koji je najveći sisavac na svetu?",
+        "options": ["Slon", "Kit", "Gorila", "Žirafa"],
+        "correctAnswer": "Kit"
+      },
+      {
+        "question": "Kada je počeo Prvi svetski rat?",
+        "options": ["1912", "1914", "1916", "1918"],
+        "correctAnswer": "1914"
+      },
+      {
+        "question": "Ko je prvi čovek koji je kročio na Mesec?",
+        "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+        "correctAnswer": "Neil Armstrong"
+      },
+      {
+        "question": "Koji je najbrži sisavac na kopnu?",
+        "options": ["Gepard", "Vuk", "Antilopa", "Tigar"],
+        "correctAnswer": "Gepard"
+      },
+      {
+        "question": "Kako se zove proces pretvaranja gasa u tečnost?",
+        "options": ["Sublimacija", "Kondenzacija", "Egzotermna reakcija", "Hidratacija"],
+        "correctAnswer": "Kondenzacija"
+      },
+      {
+        "question": "Koja je najveća pustinja na svetu?",
+        "options": ["Sahara", "Gobi", "Atakama", "Antarktika"],
+        "correctAnswer": "Antarktika"
+      },
+      {
+        "question": "Koja je najsvetlija zvezda na noćnom nebu?",
+        "options": ["Sirius", "Vega", "Arktur", "Betelgeuse"],
+        "correctAnswer": "Sirius"
+      },
+      {
+        "question": "Ko je osnivač kompanije Apple?",
+        "options": ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Elon Musk"],
+        "correctAnswer": "Steve Jobs"
+      },
+      {
+        "question": "Koliko planeta ima Sunčev sistem?",
+        "options": ["7", "8", "9", "10"],
+        "correctAnswer": "8"
+      },
+      {
+        "question": "Koji je najveći grad na svetu po broju stanovnika?",
+        "options": ["Peking", "Mumbai", "Tokio", "Šangaj"],
+        "correctAnswer": "Šangaj"
+      },
+      {
+        "question": "Koja je najveća životinja na Zemlji?",
+        "options": ["Plavi kit", "Sibirski tigar", "Slon", "Gorila"],
+        "correctAnswer": "Plavi kit"
+      },
+      {
+        "question": "Koja je najstarija civilizacija na svetu?",
+        "options": ["Mesopotamija", "Induska", "Kineska", "Egipatska"],
+        "correctAnswer": "Egipatska"
+      },
+      {
+        "question": "Ko je napisao delo 'Romeo i Julija'?",
+        "options": ["Charles Dickens", "Jane Austen", "Leo Tolstoy", "William Shakespeare"],
+        "correctAnswer": "William Shakespeare"
+      },
+      {
+        "question": "Koji je glavni grad Australije?",
+        "options": ["Melburn", "Sidnej", "Kanbera", "Brisben"],
+        "correctAnswer": "Kanbera"
+      },
+      {
+        "question": "Ko je pronalazač telefona?",
+        "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Marie Curie"],
+        "correctAnswer": "Alexander Graham Bell"
+      },
+      {
+        "question": "Koji je najduži reka u Africi?",
+        "options": ["Niger", "Kongo", "Nil", "Zambezi"],
+        "correctAnswer": "Nil"
+      },
+      {
+        "question": "Koja je najviša planina na svetu?",
+        "options": ["K2", "Anapurna", "Mount Everest", "Kangčendzonga"],
+        "correctAnswer": "Mount Everest"
+      },
+      {
+        "question": "Koja je najveća džungla na svetu?",
+        "options": ["Amazon", "Kongo", "Borneo-Malezija", "Daintree"],
+        "correctAnswer": "Amazon"
+      },
+      {
+        "question": "Koji je najveći dinosaur koji je ikada živeo?",
+        "options": ["Tiranozaur", "Apatosaurus", "Brachiosaurus", "Argentinosaurus"],
+        "correctAnswer": "Argentinosaurus"
+      },
+      {
+        "question": "Ko je napisao delo 'Crimson Petal and the White'?",
+        "options": ["Jane Austen", "Charlotte Brontë", "Michael Faber", "George Orwell"],
+        "correctAnswer": "Michael Faber"
+      },
+      {
+        "question": "Koja je najveća reka u Južnoj Americi?",
+        "options": ["Amazon", "Orinoko", "Parana", "Magdalena"],
+        "correctAnswer": "Amazon"
+      },
+      {
+        "question": "Ko je osnivač kompanije Microsoft?",
+        "options": ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Elon Musk"],
+        "correctAnswer": "Bill Gates"
+      },
+      {
+        "question": "Koja je najbrža ptica na svetu?",
+        "options": ["Orao", "Soko", "Pelikan", "Jastreb"],
+        "correctAnswer": "Soko"
+      },
+      {
+        "question": "Koji je najmanji kontinent na Zemlji?",
+        "options": ["Evropa", "Afrika", "Australija", "Južna Amerika"],
+        "correctAnswer": "Australija"
+      },
+      {
+        "question": "Koja je najveća planeta u Sunčevom sistemu?",
+        "options": ["Mars", "Jupiter", "Saturn", "Venera"],
+        "correctAnswer": "Jupiter"
+      },
+      {
+        "question": "Koja je najveća životinja koja ikada živela na Zemlji?",
+        "options": ["Plavi kit", "Tiranozaur", "Mamut", "Argentinosaurus"],
+        "correctAnswer": "Plavi kit"
+      },
+      {
+        "question": "Koja je najviša zgrada na svetu?",
+        "options": ["Burj Khalifa", "Shanghai Tower", "One World Trade Center", "Petronas Towers"],
+        "correctAnswer": "Burj Khalifa"
+      },
+      {
+        "question": "Ko je napisao delo 'Rat mira'?",
+        "options": ["Leo Tolstoj", "Fjodor Dostojevski", "Charles Dickens", "Jane Austen"],
+        "correctAnswer": "Leo Tolstoj"
+      },
+      {
+        "question": "Koji je najveći pustinjski sistem na svetu?",
+        "options": ["Sahara", "Gobi", "Atakama", "Arabijanska pustinja"],
+        "correctAnswer": "Sahara"
+      },
+      {
+        "question": "Ko je otkrio penicilin?",
+        "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Antonie van Leeuwenhoek"],
+        "correctAnswer": "Alexander Fleming"
+      },
+      {
+        "question": "Koliko planeta ima u Sunčevom sistemu ima prstenje?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "Ko je autor knjige 'Vavilonski stolp'?",
+        "options": ["Stephen Hawking", "Isaac Newton", "J.K. Rowling", "Dan Brown"],
+        "correctAnswer": "Stephen Hawking"
+      },
+      {
+        "question": "Ko je prvi čovek na Mesecu?",
+        "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+        "correctAnswer": "Neil Armstrong"
+      },
+      {
+        "question": "Koji je najveći kontinentalni basen na svetu?",
+        "options": ["Amazon", "Kongo", "Misisipi", "Lenjingradski basen"],
+        "correctAnswer": "Amazon"
+      },
+      {
+        "question": "Koja je najmanja planeta u Sunčevom sistemu?",
+        "options": ["Zemlja", "Merkur", "Mars", "Venera"],
+        "correctAnswer": "Merkur"
+      },
+      {
+        "question": "Ko je napisao delo 'Galeb Džonatan Livingston'?",
+        "options": ["Richard Bach", "J.K. Rowling", "Harper Lee", "Ernest Hemingway"],
+        "correctAnswer": "Richard Bach"
+      },
+      {
+        "question": "Koja je najveća životinja koja živi u vodi?",
+        "options": ["Kit", "Morski lav", "Ajkula", "Delfin"],
+        "correctAnswer": "Kit"
+      },
+      {
+        "question": "Koja je najveća planina u sistemu planina Himalaja?",
+        "options": ["Everest", "K2", "Anapurna", "Makalu"],
+        "correctAnswer": "Everest"
+      },
+      {
+        "question": "Ko je pronalazač električne struje?",
+        "options": ["Thomas Edison", "Nikola Tesla", "Michael Faraday", "Benjamin Franklin"],
+        "correctAnswer": "Nikola Tesla"
+      },
+      {
+        "question": "Koji je najveći okeanski greben na svetu?",
+        "options": ["Great Barrier Reef", "Belize Barrier Reef", "Red Sea Coral Reef", "Palancar Reef"],
+        "correctAnswer": "Great Barrier Reef"
+      },
+      {
+        "question": "Koja je najveća država na afričkom kontinentu?",
+        "options": ["Nigerija", "Alžir", "Južna Afrika", "Demokratska Republika Kongo"],
+        "correctAnswer": "Alžir"
+      },
+      {
+        "question": "Ko je napisao delo 'Cvrkut ptica'?",
+        "options": ["Maya Angelou", "Leo Tolstoj", "J.R.R. Tolkien", "Gabriel Garcia Marquez"],
+        "correctAnswer": "Maya Angelou"
+      },
+      {
+        "question": "Koja je najveća reka u Severnoj Americi?",
+        "options": ["Misisipi", "Jukon", "Kolumbija", "Hudson"],
+        "correctAnswer": "Misisipi"
+      },
+      {
+        "question": "Koji je najveći grad u Indiji?",
+        "options": ["Mumbai", "Delhi", "Bangalore", "Kolkata"],
+        "correctAnswer": "Mumbai"
+      },
+      {
+        "question": "Ko je napisao delo 'Sto godina samoće'?",
+        "options": ["Gabriel Garcia Marquez", "F. Scott Fitzgerald", "Albert Camus", "Haruki Murakami"],
+        "correctAnswer": "Gabriel Garcia Marquez"
+      },
+      {
+        "question": "Koja je najviša planina u Južnoj Americi?",
+        "options": ["Monte Fitz Roy", "Aconcagua", "Huascarán", "Chimborazo"],
+        "correctAnswer": "Aconcagua"
+      },
+      {
+        "question": "Koja je najveća reka u Kini?",
+        "options": ["Jangce", "Huanghe (Žuta reka)", "Mekong", "Jaluca"],
+        "correctAnswer": "Jangce"
+      },
+      {
+        "question": "Ko je napisao delo 'Stari čovek i more'?",
+        "options": ["Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck", "Mark Twain"],
+        "correctAnswer": "Ernest Hemingway"
+      },
+      {
+        "question": "Koja je najstarija svetska religija?",
+        "options": ["Hinduizam", "Budizam", "Judaizam", "Zoroastrizam"],
+        "correctAnswer": "Hinduizam"
+      },
+      {
+        "question": "Koliko satelita ima planeta Mars?",
+        "options": ["1", "2", "3", "0"],
+        "correctAnswer": "2"
+      },
+      {
+        "question": "Koja je najveća životinja koja ima krila?",
+        "options": ["Orao", "Jastreb", "Pelikan", "Albatros"],
+        "correctAnswer": "Albatros"
+      },
+      {
+        "question": "Ko je pronalazač telegrafa?",
+        "options": ["Thomas Edison", "Samuel Morse", "Nikola Tesla", "Alexander Graham Bell"],
+        "correctAnswer": "Samuel Morse"
+      },
+      {
+        "question": "Koji je najduži podvodni tunel na svetu?",
+        "options": ["Channel Tunnel", "Seikan Tunnel", "Gotthard Base Tunnel", "Eisenhower Tunnel"],
+        "correctAnswer": "Channel Tunnel"
+      },
+      {
+        "question": "Ko je napisao delo 'U potrazi za izgubljenim vremenom'?",
+        "options": ["Marcel Proust", "James Joyce", "Fyodor Dostoevsky", "Franz Kafka"],
+        "correctAnswer": "Marcel Proust"
+      },
+      {
+        "question": "Koja je najgušća planeta u Sunčevom sistemu?",
+        "options": ["Zemlja", "Venera", "Merkur", "Mars"],
+        "correctAnswer": "Zemlja"
+      },
+      {
+        "question": "Ko je osnivač kompanije SpaceX?",
+        "options": ["Jeff Bezos", "Elon Musk", "Richard Branson", "Larry Page"],
+        "correctAnswer": "Elon Musk"
+      },
+      {
+        "question": "Koja je najstarija univerzitetska institucija na svetu?",
+        "options": ["Univerzitet u Bologni", "Oksfordski univerzitet", "Univerzitet u Karolinama", "Univerzitet u Parizu"],
+        "correctAnswer": "Univerzitet u Bologni"
+      },
+      {
+        "question": "Koja je najveća životinja koja živi na kopnu?",
+        "options": ["Slon", "Girafa", "Nosorog", "Hipopotam"],
+        "correctAnswer": "Slon"
+      },
+      {
+        "question": "Ko je napisao delo 'Romeo i Julija'?",
+        "options": ["Leo Tolstoj", "Charles Dickens", "William Faulkner", "William Shakespeare"],
+        "correctAnswer": "William Shakespeare"
+      },
+      {
+        "question": "Koliko je planeta u Sunčevom sistemu manje od Zemlje?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "3"
+      },
+      {
+        "question": "Koji je najveći kontinentalni rift u Africi?",
+        "options": ["Rift Valley", "Kongo Rift", "East African Rift", "Danakil Rift"],
+        "correctAnswer": "East African Rift"
+      },
+      {
+        "question": "Ko je osnivač kompanije Amazon?",
+        "options": ["Bill Gates", "Elon Musk", "Jeff Bezos", "Mark Zuckerberg"],
+        "correctAnswer": "Jeff Bezos"
+      },
+      {
+        "question": "Koja je najduža reka u SAD?",
+        "options": ["Misisipi", "Missouri", "Kolorado", "Jukon"],
+        "correctAnswer": "Misisipi"
+      },
+      {
+        "question": "Koja je najveća svetska biblioteka?",
+        "options": ["Biblioteka Kongresa", "Britanska biblioteka", "Nacionalna biblioteka Kine", "Biblioteka Aleksandrije"],
+        "correctAnswer": "Biblioteka Kongresa"
+      },
+      {
+        "question": "Koja je najveća država u Južnoj Americi?",
+        "options": ["Brazil", "Argentina", "Kolumbija", "Peru"],
+        "correctAnswer": "Brazil"
+      },
+      {
+        "question": "Koja je najstarija svetska religijska knjiga?",
+        "options": ["Biblija", "Torah", "Veda", "Kuran"],
+        "correctAnswer": "Veda"
+      },
+      {
+        "question": "Koja je najveća jama na svetu?",
+        "options": ["Great Blue Hole", "Dean's Blue Hole", "Z-Forlandia", "Voronya Cave"],
+        "correctAnswer": "Dean's Blue Hole"
+      },
+      {
+        "question": "Koja je najveća reka u Australiji?",
+        "options": ["Murray-Darling", "Yarra", "Brisbane", "Snowy River"],
+        "correctAnswer": "Murray-Darling"
+      },
+      {
+        "question": "Ko je napisao delo 'Vavilonski stolp'?",
+        "options": ["George Orwell", "Aldous Huxley", "Isaac Asimov", "Arthur C. Clarke"],
+        "correctAnswer": "Isaac Asimov"
+      },
+      {
+        "question": "Koliko planeta ima u Sunčevom sistemu ima prstenje?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "4"
+      },
+      {
+        "question": "Koja je najstarija svetska kompanija koja još uvek posluje?",
+        "options": ["IBM", "Švajcarski poštar", "Stora Enso", "Beretta"],
+        "correctAnswer": "Beretta"
+      },
+      {
+        "question": "Ko je pronalazač telefona?",
+        "options": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Elisha Gray"],
+        "correctAnswer": "Alexander Graham Bell"
+      },
+      {
+        "question": "Koji je najveći vulkan na Zemlji?",
+        "options": ["Mauna Kea", "Mauna Loa", "Krakatau", "Mount Vesuvius"],
+        "correctAnswer": "Mauna Loa"
+      },
+      {
+        "question": "Ko je napisao delo 'Ljubav u doba kolere'?",
+        "options": ["Gabriel Garcia Marquez", "Mario Vargas Llosa", "Julio Cortázar", "Isabel Allende"],
+        "correctAnswer": "Gabriel Garcia Marquez"
+      },
+      {
+        "question": "Koja je najveća jezera u Severnoj Americi?",
+        "options": ["Jezero Superior", "Jezero Michigan", "Jezero Huron", "Jezero Erie"],
+        "correctAnswer": "Jezero Superior"
+      },
+      {
+        "question": "Koja je najveća svetska pustinja koja se nalazi izvan kontinenata?",
+        "options": ["Gobi", "Rub al Khali", "Gujavanska pustinja", "Pustinja Atakama"],
+        "correctAnswer": "Antarktička pustinja"
+      },
+      {
+        "question": "Koji je najveći kanjon u svemiru?",
+        "options": ["Grand Canyon", "Valles Marineris", "Blyde River Canyon", "Tianmen Mountain"],
+        "correctAnswer": "Valles Marineris"
+      },
+      {
+        "question": "Koja je najveća svetska berza?",
+        "options": ["NYSE", "NASDAQ", "Tokyo Stock Exchange", "London Stock Exchange"],
+        "correctAnswer": "NYSE"
+      },
+      {
+        "question": "Koja je najduža železnička pruga na svetu?",
+        "options": ["Trans-Siberian Railway", "Canadian Pacific Railway", "Orient Express", "Indian Pacific"],
+        "correctAnswer": "Trans-Siberian Railway"
+      },
+      {
+        "question": "Koja je najmanja planeta u Sunčevom sistemu?",
+        "options": ["Merkur", "Venera", "Mars", "Pluto"],
+        "correctAnswer": "Merkur"
+      },
+      {
+        "question": "Koji je najstariji grad na svetu koji se i dalje nastanjuje?",
+        "options": ["Jerusalim", "Atina", "Rim", "Kairo"],
+        "correctAnswer": "Kairo"
+      },
+      {
+        "question": "Koja je najveća svetska pivara?",
+        "options": ["Anheuser-Busch InBev", "Heineken", "China Resources Snow Breweries", "Tsingtao Brewery"],
+        "correctAnswer": "Anheuser-Busch InBev"
+      },
+      {
+        "question": "Ko je prvi put koristio teleskop u astronomije?",
+        "options": ["Galileo Galilei", "Johannes Kepler", "Isaac Newton", "Tycho Brahe"],
+        "correctAnswer": "Galileo Galilei"
+      },
+      {
+        "question": "Koja je najveća svetska kompanija za proizvodnju hrane i napitaka?",
+        "options": ["Nestlé", "PepsiCo", "Coca-Cola", "Danone"],
+        "correctAnswer": "Nestlé"
+      },
+      {
+        "question": "Koja je najduža reka u Africi?",
+        "options": ["Niger", "Nil", "Kongo", "Zambezi"],
+        "correctAnswer": "Nil"
+      },
+      {
+        "question": "Ko je napisao delo 'Kako ubiti pticu rugalicu'?",
+        "options": ["Harper Lee", "J.D. Salinger", "Mark Twain", "F. Scott Fitzgerald"],
+        "correctAnswer": "Harper Lee"
+      }            
+]

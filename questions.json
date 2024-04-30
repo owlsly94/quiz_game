@@ -1,8 +1,158 @@
 [
     {
         "question": "Koja reka protiče kroz Beograd?",
-        "options": ["Sava", "Tisa", "Morava", "Dunav"],
+        "options": ["Una", "Tisa", "Morava", "Dunav"],
         "correctAnswer": "Dunav"
+    },
+    {
+      "question": "Koji je najveći svetski kontinentalni basen?",
+      "options": ["Kongo", "Amazon", "Misisipi", "Lenjingradski basen"],
+      "correctAnswer": "Amazon"
+    },
+    {
+      "question": "Koji je najbrži riblji plivač?",
+      "options": ["Tuna", "Morski pas", "Marlin", "Barracuda"],
+      "correctAnswer": "Tuna"
+    },
+    {
+      "question": "Koja je najveća pustinja u Africi?",
+      "options": ["Sahara", "Kalahari", "Namib", "Libijska pustinja"],
+      "correctAnswer": "Sahara"
+    },
+    {
+      "question": "Koji je najveći morski predator?",
+      "options": ["Morski pas", "Kit", "Kit balin", "Orka"],
+      "correctAnswer": "Morski pas"
+    },
+    {
+      "question": "Koja je najstarija svetska religijska knjiga?",
+      "options": ["Veda", "Biblija", "Torah", "Kuran"],
+      "correctAnswer": "Veda"
+    },
+    {
+      "question": "Ko je osnivač kompanije Google?",
+      "options": ["Larry Page i Sergey Brin", "Mark Zuckerberg", "Jeff Bezos", "Elon Musk"],
+      "correctAnswer": "Larry Page i Sergey Brin"
+    },
+    {
+      "question": "Koja je najveća svetska medijska korporacija?",
+      "options": ["Walt Disney Company", "Comcast", "Time Warner", "Bertelsmann"],
+      "correctAnswer": "Comcast"
+    },
+    {
+      "question": "Koji je najveći okeanski greben na svetu?",
+      "options": ["Great Barrier Reef", "Belize Barrier Reef", "Koralni greben Andi", "Tonga Trench"],
+      "correctAnswer": "Great Barrier Reef"
+    },
+    {
+      "question": "Koja je najstarija svetska kompanija koja se bavi proizvodnjom pića?",
+      "options": ["Bushmills Distillery", "Taittinger", "Pilsner Urquell Brewery", "Stella Artois"],
+      "correctAnswer": "Bushmills Distillery"
+    },
+    {
+      "question": "Koja je najmanja država na svetu?",
+      "options": ["Vatikan", "Monako", "Nauru", "Tuvalu"],
+      "correctAnswer": "Vatikan"
+    },
+    {
+      "question": "Koja je najveća svetska kompanija za proizvodnju automobila?",
+      "options": ["Toyota", "Volkswagen", "General Motors", "Ford"],
+      "correctAnswer": "Toyota"
+    },
+    {
+      "question": "Koja je najbrža životinja u vodi?",
+      "options": ["Plavi kit", "Striped Marlin", "Mako ajkula", "Pacifički plavac"],
+      "correctAnswer": "Pacifički plavac"
+    },
+    {
+      "question": "Koja je najbrža ptica u vazduhu?",
+      "options": ["Sokol", "Golub", "Jastreb", "Lastavica"],
+      "correctAnswer": "Sokol"
+    },
+    {
+      "question": "Koji je najduži planinski lanac na svetu?",
+      "options": ["Andi", "Himalaji", "Apenini", "Rocky Mountains"],
+      "correctAnswer": "Andi"
+    },
+    {
+      "question": "Koja je najveća zgrada na svetu prema površini?",
+      "options": ["Boeingova fabrika", "Kraljevska palata u Pekingu", "Međunarodni aerodrom Peking", "Abraj Al Bait"],
+      "correctAnswer": "Boeingova fabrika"
+    },
+    {
+      "question": "Koji je najstariji grad na svetu koji je kontinuirano naseljen?",
+      "options": ["Damas", "Jerihon", "Varanasi", "Faiyum"],
+      "correctAnswer": "Varanasi"
+    },
+    {
+      "question": "Koja je najveća životinja koja se može naći u slatkoj vodi?",
+      "options": ["Beluga kit", "Kit balin", "Krokodil", "Nilski konj"],
+      "correctAnswer": "Nilski konj"
+    },
+    {
+      "question": "Koja je najveća religija u svetu prema broju sledbenika?",
+      "options": ["Hrišćanstvo", "Islam", "Hinduizam", "Budizam"],
+      "correctAnswer": "Hrišćanstvo"
+    },
+    {
+      "question": "Koja je najduža pećina na svetu?",
+      "options": ["Mammoth Cave", "Wind Cave", "Jewel Cave", "Reed Flute Cave"],
+      "correctAnswer": "Mammoth Cave"
+    },
+    {
+      "question": "Koji je najveći kontinentalni rift na svetu?",
+      "options": ["Great Rift Valley", "Rhine Rift", "Baikal Rift Zone", "Rio Grande Rift"],
+      "correctAnswer": "Great Rift Valley"
+    },
+    {
+      "question": "Koja je najveća planina na svetu?",
+      "options": ["Mount Everest", "K2", "Anapurna", "Kangčendzonga"],
+      "correctAnswer": "Mount Everest"
+    },
+    {
+      "question": "Koja je najveća reka na svetu po protoku vode?",
+      "options": ["Amazon", "Nil", "Jangce", "Misisipi"],
+      "correctAnswer": "Amazon"
+    },
+    {
+      "question": "Koja je najveća životinja koja živi u moru?",
+      "options": ["Plavi kit", "Morski pas", "Kit balin", "Krokodil"],
+      "correctAnswer": "Plavi kit"
+    },
+    {
+      "question": "Koja je najmanja planeta u Sunčevom sistemu?",
+      "options": ["Merkur", "Venera", "Mars", "Pluto"],
+      "correctAnswer": "Merkur"
+    },
+    {
+      "question": "Koja je najbrža ptica na kopnu?",
+      "options": ["Gepard", "Orao", "Noj", "Jastreb"],
+      "correctAnswer": "Gepard"
+    },
+    {
+      "question": "Koja je najviša zgrada u Evropi?",
+      "options": ["The Shard", "Skyland Istanbul", "Lakhta Center", "Commerzbank Tower"],
+      "correctAnswer": "The Shard"
+    },
+    {
+      "question": "Koja je najduža reka u Aziji?",
+      "options": ["Jangce", "Mekong", "Ob", "Irtiš"],
+      "correctAnswer": "Jangce"
+    },
+    {
+      "question": "Koja je najveća svetska ostrvska država?",
+      "options": ["Indonezija", "Japan", "Filipini", "Novi Zeland"],
+      "correctAnswer": "Indonezija"
+    },
+    {
+      "question": "Koji je najveći asteroid u Sunčevom sistemu?",
+      "options": ["Ceres", "Vesta", "Pallas", "Juno"],
+      "correctAnswer": "Ceres"
+    },
+    {
+      "question": "Koja je najviša peščana duna na svetu?",
+      "options": ["Duna 7", "Big Daddy", "Cerro Blanco", "Sossusvlei"],
+      "correctAnswer": "Duna 7"
     },
     
     {

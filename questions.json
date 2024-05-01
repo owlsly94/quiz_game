@@ -60,14 +60,9 @@
       "correctAnswer": "Toyota"
     },
     {
-      "question": "Koja je najbrža životinja u vodi?",
-      "options": ["Plavi kit", "Striped Marlin", "Mako ajkula", "Pacifički plavac"],
-      "correctAnswer": "Pacifički plavac"
-    },
-    {
       "question": "Koja je najbrža ptica u vazduhu?",
-      "options": ["Sokol", "Golub", "Jastreb", "Lastavica"],
-      "correctAnswer": "Sokol"
+      "options": ["Soko", "Golub", "Jastreb", "Lastavica"],
+      "correctAnswer": "Soko"
     },
     {
       "question": "Koji je najduži planinski lanac na svetu?",
@@ -126,8 +121,8 @@
     },
     {
       "question": "Koja je najbrža ptica na kopnu?",
-      "options": ["Gepard", "Orao", "Noj", "Jastreb"],
-      "correctAnswer": "Gepard"
+      "options": ["Kivi", "Orao", "Noj", "Jastreb"],
+      "correctAnswer": "Noj"
     },
     {
       "question": "Koja je najviša zgrada u Evropi?",
@@ -212,8 +207,8 @@
       },
       {
         "question": "Kako se zove najveći okean na Zemlji?",
-        "options": ["Atlantski okean", "Indijski okean", "Severni ledeni okean", "Tihookeanski okean"],
-        "correctAnswer": "Tihookeanski okean"
+        "options": ["Atlantski okean", "Indijski okean", "Severni ledeni okean", "Tihi okean"],
+        "correctAnswer": "Tihi okean"
       },
       {
         "question": "Koja je najmanja kost u ljudskom telu?",
@@ -361,11 +356,6 @@
         "correctAnswer": "Burj Khalifa"
       },
       {
-        "question": "Ko je napisao delo 'Rat mira'?",
-        "options": ["Leo Tolstoj", "Fjodor Dostojevski", "Charles Dickens", "Jane Austen"],
-        "correctAnswer": "Leo Tolstoj"
-      },
-      {
         "question": "Koji je najveći pustinjski sistem na svetu?",
         "options": ["Sahara", "Gobi", "Atakama", "Arabijanska pustinja"],
         "correctAnswer": "Sahara"
@@ -461,7 +451,7 @@
         "correctAnswer": "Jangce"
       },
       {
-        "question": "Ko je napisao delo 'Stari čovek i more'?",
+        "question": "Ko je napisao delo 'Starac i more'?",
         "options": ["Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck", "Mark Twain"],
         "correctAnswer": "Ernest Hemingway"
       },
@@ -622,7 +612,7 @@
       },
       {
         "question": "Koja je najmanja planeta u Sunčevom sistemu?",
-        "options": ["Merkur", "Venera", "Mars", "Pluto"],
+        "options": ["Merkur", "Venera", "Mars", "Zemlja"],
         "correctAnswer": "Merkur"
       },
       {
